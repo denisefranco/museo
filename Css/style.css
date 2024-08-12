@@ -1,0 +1,33 @@
+/*
+color uno #ff6347
+color dos  #3273ED
+color tres  #FF1D63
+color cuatro #FFD70F
+*/
+
+/*index*/
+.saludo{
+    background-color: rgb(32, 15, 189);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.hijo,.hija{ 
+    color: #3273ED;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ /*matematica*/
+  .lineal,.cuadratica, .polinomica, .cubica{ 
+    color: rgb(2, 2, 2);
+    background-color: #FFD70F;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+/*contacto*/
+.comunicate { 
+    color: #FF1D63; 
+    background-color: black;
+    font-size: 40px;
+    font-family: cursive;
+}
