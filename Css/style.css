@@ -12,7 +12,7 @@ color cuatro #FFD70F
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 .hijo,.hija{ 
-    color: #3273ED;
+    color: #32ed86;
     background-color: black;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,3 +31,105 @@ color cuatro #FFD70F
     font-size: 40px;
     font-family: cursive;
 }
+
+/*recuadros*/
+.caja1 { 
+    width: 75%;
+    height: 200px;
+    background-color: #FF1D63;
+    border: 3px solid#000000;
+}
+
+.caja2 { 
+    width: 100%;
+    height: 150px;
+    background-color:#3e32ed; 
+    
+}
+ 
+.caja3 {
+    width: 35%;
+    height: 100px;
+    background-color:#32ed4b; 
+   
+ }
+
+.caja4 {
+    width: 50%;
+    height: 75px;
+    background-color:#000000; 
+    
+ }
+
+.elementopadre{ 
+    list-style-type: none;
+    background-color: #32ed86;
+    padding: 0%;
+    border-radius: 10px;
+    width: 100%;
+    border: 3px solid #000000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elementopadre li {
+    border: 3px solid #3e32ed;
+    font-family: cursive;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
+ @media (min-width: 767px) { 
+.elementopadre { 
+    flex-direction: row;
+    background-color: #FFD70F;
+}
+ }
+
+ .body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+ }
+
+ header { 
+    height: 100px;
+    display: flex;
+    background-color: #FFD70F;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+
+ }
+.nombreproyecto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    align-items: center;
+
+}
+ 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+ .logo img { 
+    height: 80px;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 10px;
+ }
+nav a{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-right: 10px;
+}
+ nav a:hover{
+    color: #630fff;
+  }
+
+
