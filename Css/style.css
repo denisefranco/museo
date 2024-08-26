@@ -168,3 +168,53 @@ nav a{
  .enviar {
     background-color: #3e32ed;
  }
+
+ 
+.article {
+    background-color: red;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 2000ms;
+    transition-property: background-color;
+    opacity: 0.7;
+}
+.article:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    color: black;
+    border: 5px dashed green;
+    box-shadow: 1px 2px 3px 10px black;
+    opacity: 10;
+    scale: 1.05;
+}
+
+.footer {
+    background-color: blueviolet;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+h2,p {
+    display: flex;
+    justify-content: center;
+}
+.div{
+    background-color: blue;
+    border: 1px solid yellow;
+    width: 200px;
+    margin: 20px;
+}
+.div{
+    animation: div 5s linear infinite
+}
+@keyframes div{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
